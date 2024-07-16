@@ -3,9 +3,9 @@
   <ID>JAVA</ID>
   <OriginalElement>structural.facade.MachineTelegraph</OriginalElement>
   <nodes>
-    <node x="251.3038633770817" y="10.073353327165329">structural.facade.Transmission</node>
-    <node x="-49.9834496080444" y="-23.634888875310224">structural.facade.MachineTelegraph</node>
+    <node x="289.3038633770817" y="10.073353327165329">structural.facade.Transmission</node>
     <node x="227.3038633770817" y="149.8639414387217">structural.facade.Engine</node>
+    <node x="-49.9834496080444" y="-23.634888875310224">structural.facade.MachineTelegraph</node>
   </nodes>
   <notes />
   <edges>
@@ -19,8 +19,10 @@
       <point x="-92.5" y="0.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="179.5" y="111.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="180.0" y="110.66666666666669" />
+  <SelectedNodes>
+    <node>structural.facade.Transmission</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
