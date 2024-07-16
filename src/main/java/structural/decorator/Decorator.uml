@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.facade.MachineTelegraph</OriginalElement>
+  <nodes>
+    <node x="-85.49999999999994" y="45.17246484085865">structural.decorator.decorators.SlackNotifierDecorator</node>
+    <node x="-390.7170614359734" y="435.280532938564">structural.decorator.Client</node>
+    <node x="345.4411764705883" y="-261.0">structural.decorator.Notifier</node>
+    <node x="-85.5" y="137.3449296817173">structural.decorator.decorators.SmsNotifierDecorator</node>
+    <node x="552.409859798842" y="-63.9119170984456">structural.decorator.BaseNotifier</node>
+    <node x="-100.49999999999994" y="-47.0">structural.decorator.decorators.TelegramNotifierDecorator</node>
+    <node x="-75.23612139156171" y="-139.17246484085865">structural.decorator.decorators.BaseNotifierDecorator</node>
+    <node x="-94.73612139156171" y="222.74167283493705">structural.decorator.decorators.FacebookNotifierDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.decorator.BaseNotifier" target="structural.decorator.Notifier" relationship="REALIZATION">
+      <point x="-1.1368683772161603E-13" y="-27.0" />
+      <point x="633.4098597988419" y="-176.0" />
+      <point x="593.5" y="-176.0" />
+      <point x="593.5" y="-186.0" />
+      <point x="466.9411764705883" y="-186.0" />
+      <point x="40.5" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.decorators.SmsNotifierDecorator" target="structural.decorator.decorators.BaseNotifierDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="24.0" y="164.3449296817173" />
+      <point x="221.95947446336146" y="164.3449296817173" />
+      <point x="221.95947446336146" y="-112.17246484085865" />
+      <point x="36.76387860843829" y="-112.17246484085865" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.decorators.SlackNotifierDecorator" target="structural.decorator.decorators.BaseNotifierDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="29.000000000000057" y="78.45979829755731" />
+      <point x="221.95947446336146" y="78.45979829755731" />
+      <point x="221.95947446336146" y="-112.17246484085865" />
+      <point x="36.76387860843829" y="-112.17246484085865" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.decorators.TelegramNotifierDecorator" target="structural.decorator.decorators.BaseNotifierDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="29.000000000000057" y="-20.0" />
+      <point x="221.95947446336146" y="-20.0" />
+      <point x="221.95947446336146" y="-112.17246484085865" />
+      <point x="36.76387860843829" y="-112.17246484085865" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.decorators.SmsNotifierDecorator" relationship="CREATE">
+      <point x="55.25000000000006" y="-85.0" />
+      <point x="-224.96706143597333" y="164.3449296817173" />
+      <point x="24.0" y="164.3449296817173" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.BaseNotifier" relationship="CREATE">
+      <point x="55.25000000000006" y="-85.0" />
+      <point x="-224.96706143597333" y="352.5964100666173" />
+      <point x="633.409859798842" y="352.5964100666173" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.decorators.BaseNotifierDecorator" target="structural.decorator.Notifier" relationship="TO_ONE">
+      <point x="-56.0" y="-27.0" />
+      <point x="-19.23612139156171" y="-176.0" />
+      <point x="247.9411764705883" y="-176.0" />
+      <point x="247.9411764705883" y="-186.0" />
+      <point x="385.9411764705883" y="-186.0" />
+      <point x="-40.5" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.decorators.BaseNotifierDecorator" target="structural.decorator.Notifier" relationship="REALIZATION">
+      <point x="56.0" y="-27.0" />
+      <point x="92.76387860843829" y="-176.0" />
+      <point x="593.5" y="-176.0" />
+      <point x="593.5" y="-186.0" />
+      <point x="466.9411764705883" y="-186.0" />
+      <point x="40.5" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.decorators.FacebookNotifierDecorator" target="structural.decorator.decorators.BaseNotifierDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="36.76387860843829" y="249.74167283493705" />
+      <point x="221.95947446336146" y="249.74167283493705" />
+      <point x="221.95947446336146" y="-112.17246484085865" />
+      <point x="36.76387860843829" y="-112.17246484085865" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.decorators.TelegramNotifierDecorator" relationship="CREATE">
+      <point x="55.25000000000006" y="-85.0" />
+      <point x="-224.96706143597333" y="-20.0" />
+      <point x="29.000000000000057" y="-20.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.Notifier" relationship="TO_ONE">
+      <point x="-55.24999999999994" y="-85.0" />
+      <point x="-335.46706143597333" y="-176.0" />
+      <point x="247.9411764705883" y="-176.0" />
+      <point x="247.9411764705883" y="-186.0" />
+      <point x="385.9411764705883" y="-186.0" />
+      <point x="-40.5" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.decorators.SlackNotifierDecorator" relationship="CREATE">
+      <point x="55.25000000000006" y="-85.0" />
+      <point x="-224.96706143597333" y="72.17246484085865" />
+      <point x="29.000000000000057" y="72.17246484085865" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.decorators.FacebookNotifierDecorator" relationship="CREATE">
+      <point x="55.25000000000006" y="-85.0" />
+      <point x="-224.96706143597333" y="249.74167283493705" />
+      <point x="36.76387860843829" y="249.74167283493705" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1527303754266214" showDependencies="true" x="329.27262213175516" y="-155.4307920059216" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
