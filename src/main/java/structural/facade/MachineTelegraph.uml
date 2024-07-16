@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.facade.MachineTelegraph</OriginalElement>
+  <nodes>
+    <node x="251.3038633770817" y="10.073353327165329">structural.facade.Transmission</node>
+    <node x="-49.9834496080444" y="-23.634888875310224">structural.facade.MachineTelegraph</node>
+    <node x="227.3038633770817" y="149.8639414387217">structural.facade.Engine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.facade.MachineTelegraph" target="structural.facade.Transmission" relationship="TO_ONE">
+      <point x="94.0" y="0.20824220247555303" />
+      <point x="-68.5" y="0.0" />
+    </edge>
+    <edge source="structural.facade.MachineTelegraph" target="structural.facade.Engine" relationship="TO_ONE">
+      <point x="0.0" y="71.5" />
+      <point x="44.0165503919556" y="188.3639414387217" />
+      <point x="-92.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="179.5" y="111.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
