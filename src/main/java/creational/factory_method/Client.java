@@ -1,28 +1,31 @@
 package creational.factory_method;
 
-import creational.factory_method.factory.Dialog;
-import creational.factory_method.factory.HtmlDialog;
-import creational.factory_method.factory.WindowsDialog;
+import creational.factory_method.factory.AirLogistic;
+import creational.factory_method.factory.Logistic;
+import creational.factory_method.factory.RoadLogistic;
+import creational.factory_method.factory.SeaLogistic;
 
 public class Client {
 
-    private static Dialog dialog;
+    private static Logistic logistic;
 
     public static void main(String[] args) {
-        configure();
+        configure("Air");
         runBusinessLogic();
     }
 
-    static void configure() {
-        if (System.getProperty("os.name").contains("Windows")) {
-            dialog = new WindowsDialog();
-        } else {
-            dialog = new HtmlDialog();
+    static void configure(String logisticType) {
+        if (logisticType.equals("Air")) {
+            logistic = new AirLogistic();
+        } else if (logisticType.equals("Road")) {
+            logistic = new RoadLogistic();
+        } else if (logisticType.equals("Sea")) {
+            logistic = new SeaLogistic();
         }
     }
 
     static void runBusinessLogic() {
-        dialog.renderWindow();
+        logistic.planDelivery();
     }
 
 }
