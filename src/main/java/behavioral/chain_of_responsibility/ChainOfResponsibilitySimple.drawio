@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-07-17T13:24:04.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-GCUC7VDQj2KmIywckJZ" version="24.6.5" type="device">
+  <diagram name="Страница — 1" id="N890vdtyf4Tp_daRvUiV">
+    <mxGraphModel dx="1653" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-3" target="MlvG81Zk7zc4Z5-Heojg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-3" value="Client&lt;div style=&quot;font-size: 14px;&quot;&gt;выполняет&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;запрос&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-4" target="MlvG81Zk7zc4Z5-Heojg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-4" value="ErrorLogger" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="65" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-6" target="MlvG81Zk7zc4Z5-Heojg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-6" value="WarningLogger" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="65" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-7" target="MlvG81Zk7zc4Z5-Heojg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-7" value="InfoLogger" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="65" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-8" target="MlvG81Zk7zc4Z5-Heojg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-8" value="DebugLogger" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="65" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-9" value="Client&lt;div style=&quot;font-size: 14px;&quot;&gt;получает&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;ответ&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-10" target="MlvG81Zk7zc4Z5-Heojg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-10" value="&lt;div style=&quot;background-color:#1e1e1e;color:#d4d4d4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;span style=&quot;color:#ffc66d;font-style:italic;&quot;&gt;fullLoggerChain&lt;/span&gt;.&lt;span style=&quot;color:#dbdbaa;&quot;&gt;logMessage&lt;/span&gt;(&lt;span style=&quot;color:#4ec9b0;&quot;&gt;Logger&lt;/span&gt;.&lt;span style=&quot;color:#4fc1ff;font-weight:bold;font-style:italic;&quot;&gt;DEBUG&lt;/span&gt;, &lt;span style=&quot;color:#cd9069;&quot;&gt;&quot;full logging&quot;&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="MlvG81Zk7zc4Z5-Heojg-12" target="MlvG81Zk7zc4Z5-Heojg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-12" value="&lt;div style=&quot;background-color: rgb(30, 30, 30);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#ffc66d&quot;&gt;&lt;i&gt;[ERROR]: full logging&lt;br/&gt;[WARNING]: full logging&lt;br/&gt;[INFO]: full logging&lt;br/&gt;[DEBUG]: full logging&lt;/i&gt;&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#d4d4d4&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="150" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MlvG81Zk7zc4Z5-Heojg-19" value="Цепочка обязанностей (fullLoggerChain)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;dashed=1;strokeWidth=2;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontColor=#CC0000;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="640" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
