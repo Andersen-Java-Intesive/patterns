@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.facade.MachineTelegraph</OriginalElement>
+  <nodes>
+    <node x="468.97485236220473" y="673.5527559055118">behavioral.state.Client</node>
+    <node x="430.7248523622047" y="124.467716535433">behavioral.state.TrafficLight</node>
+    <node x="64.38110236220467" y="0.33385826771655047">behavioral.state.states.YellowState</node>
+    <node x="64.38110236220467" y="129.06062992125987">behavioral.state.states.GreenBlinkState</node>
+    <node x="64.38110236220467" y="386.5141732283465">behavioral.state.states.RedYellowState</node>
+    <node x="64.38110236220467" y="257.7874015748032">behavioral.state.states.GreenState</node>
+    <node x="64.38110236220467" y="515.2409448818898">behavioral.state.states.RedState</node>
+    <node x="252.1997539370078" y="-151.39291338582677">behavioral.state.states.TrafficLightState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.state.states.YellowState" target="behavioral.state.states.RedState" relationship="CREATE">
+      <point x="-102.0" y="0.0" />
+      <point x="21.05937007874013" y="27.33385826771655" />
+      <point x="21.05937007874013" y="542.2409448818898" />
+      <point x="-102.0" y="0.0" />
+    </edge>
+    <edge source="behavioral.state.states.RedState" target="behavioral.state.states.TrafficLightState" relationship="REALIZATION">
+      <point x="51.0" y="-27.0" />
+      <point x="217.38110236220467" y="542.2409448818898" />
+      <point x="330.3464566929133" y="542.2409448818898" />
+      <point x="330.3464566929133" y="-74.39291338582677" />
+      <point x="-51.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.state.TrafficLight" target="behavioral.state.states.TrafficLightState" relationship="TO_ONE">
+      <point x="-5.6843418860808015E-14" y="-50.5" />
+      <point x="554.7248523622047" y="46.0" />
+      <point x="405.1997539370078" y="46.0" />
+      <point x="51.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.state.Client" target="behavioral.state.TrafficLight" relationship="TO_ONE">
+      <point x="49.25" y="-62.0" />
+      <point x="62.0" y="50.5" />
+    </edge>
+    <edge source="behavioral.state.states.RedYellowState" target="behavioral.state.states.GreenState" relationship="CREATE">
+      <point x="-51.0" y="-27.0" />
+      <point x="166.38110236220467" y="386.5141732283465" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="behavioral.state.states.YellowState" target="behavioral.state.states.TrafficLightState" relationship="REALIZATION">
+      <point x="19.35014763779526" y="-27.0" />
+      <point x="185.73124999999993" y="27.33385826771655" />
+      <point x="330.3464566929133" y="27.33385826771655" />
+      <point x="330.3464566929133" y="-74.39291338582677" />
+      <point x="-94.5" y="38.5" />
+    </edge>
+    <edge source="behavioral.state.Client" target="behavioral.state.states.RedState" relationship="CREATE">
+      <point x="-49.25" y="-62.0" />
+      <point x="518.2248523622047" y="628.0" />
+      <point x="166.38110236220467" y="628.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="behavioral.state.states.GreenState" target="behavioral.state.states.TrafficLightState" relationship="REALIZATION">
+      <point x="51.0" y="-27.0" />
+      <point x="177.5" y="257.7874015748032" />
+      <point x="177.5" y="284.7874015748032" />
+      <point x="330.3464566929133" y="284.7874015748032" />
+      <point x="330.3464566929133" y="-74.39291338582677" />
+      <point x="-51.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.state.states.GreenState" target="behavioral.state.states.GreenBlinkState" relationship="CREATE">
+      <point x="-51.0" y="-27.0" />
+      <point x="166.38110236220467" y="257.7874015748032" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="behavioral.state.states.GreenBlinkState" target="behavioral.state.states.TrafficLightState" relationship="REALIZATION">
+      <point x="51.0" y="-27.0" />
+      <point x="217.38110236220467" y="148.0" />
+      <point x="90.5" y="148.0" />
+      <point x="90.5" y="156.06062992125987" />
+      <point x="330.3464566929133" y="156.06062992125987" />
+      <point x="330.3464566929133" y="-74.39291338582677" />
+      <point x="-51.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.state.Client" target="behavioral.state.TrafficLight" relationship="CREATE">
+      <point x="-49.25" y="-62.0" />
+      <point x="518.2248523622047" y="206.60724409448818" />
+      <point x="492.72485236220473" y="206.60724409448818" />
+      <point x="-62.0" y="50.5" />
+    </edge>
+    <edge source="behavioral.state.states.RedState" target="behavioral.state.states.RedYellowState" relationship="CREATE">
+      <point x="-51.0" y="-27.0" />
+      <point x="115.38110236220467" y="529.7952755905511" />
+      <point x="166.38110236220467" y="529.7952755905511" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="behavioral.state.states.RedYellowState" target="behavioral.state.states.TrafficLightState" relationship="REALIZATION">
+      <point x="51.0" y="-27.0" />
+      <point x="217.38110236220467" y="413.5141732283465" />
+      <point x="330.3464566929133" y="413.5141732283465" />
+      <point x="330.3464566929133" y="-74.39291338582677" />
+      <point x="-51.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.state.states.GreenBlinkState" target="behavioral.state.states.YellowState" relationship="CREATE">
+      <point x="-3.881102362204672" y="-27.0" />
+      <point x="-3.881102362204672" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5948477751756442" showDependencies="true" x="163.97961417322267" y="260.28346456692896" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
