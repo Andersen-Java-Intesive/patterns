@@ -13,11 +13,12 @@ public class GreenBlinkState implements TrafficLightState {
     }
 
     private void blink(TrafficLight trafficLight) {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             System.out.println("GREEN ON");
             trafficLight.setGreenLight(true);
             waitTime(500);
             System.out.println("GREEN OFF");
+            waitTime(500);
             trafficLight.setGreenLight(false);
         }
     }

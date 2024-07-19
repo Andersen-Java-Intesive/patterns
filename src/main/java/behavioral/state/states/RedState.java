@@ -10,7 +10,7 @@ public class RedState implements TrafficLightState {
         trafficLight.setRedLight(true);
         trafficLight.setYellowLight(false);
         trafficLight.setGreenLight(false);
-        waitTime(10000);
+        waitTime(5000);
         trafficLight.setState(new RedYellowState());
     }
 }

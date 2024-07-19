@@ -30,4 +30,7 @@ public class TrafficLight {
         return state;
     }
 
+    public void changeState() {
+        state.handle(this);
+    }
 }
